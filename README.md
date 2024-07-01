@@ -18,10 +18,10 @@
 - **Step 1**: Start zookeeper server and kafka server
 Code:
   - Start zookeeper server\
-  `bin/zookeeper-server-start.sh config/zookeeper.properties`
+  `bin\windows\zookeeper-server-start.bat config\zookeeper.properties`
 
   - Start kafka server\
-  `bin/kafka-server-start.sh config/server.properties`
+  `bin\windows\kafka-server-start.bat config\server.properties`
 
 - **Step 2**: Start MongoDB
 - **Step 3**: Start mongo_consumer, producer and consumer
